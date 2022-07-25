@@ -100,4 +100,4 @@ Después de twittear, el bot se va a quedar esperando la cantidad de segundos qu
 Mientras tengamos esta ventana abierta el bot va a seguir twitteando según el tiempo establecido en la configuración.
 
 ### Fin
-
+Si tenés alguna duda me la podes mandar por dm a [@botsimuladores](https://www.twitter.com/botsimuladores) o a [@vlnhz](https://www.twitter.com/vlnhz)
