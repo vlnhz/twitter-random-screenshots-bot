@@ -58,11 +58,13 @@ Lo único que nos queda por hacer es copiar nuestros capítulos y subtítulos de
 
 #### Aclaraciones:
 * IMPORTANTE: eliminar los archivos ```.gitkeep``` que se encuentran adentro de las carpetas ```capitulos/``` y ```subtitulos/```.
-* El formato de los videos de los capitulos recomendado es ```.mp4```
+* El formato de los videos de los capitulos recomendado es ```.mp4``` (no está probado con otros formatos pero se puede intentar).
 
-#### (opcional) Configurar los subtítulos:
+#### Configurar los subtítulos (opcional):
+Solo hacer esto si vamos a usar subtítulos en las capturas
 * Primero que nada, vamos a cambiar en la config el campo ````withSubtitles = false``` por ```withSubtitles = true```
-* Si vamos a usar la opción de postear la capturas con subtítulos, archivos ```.srt``` tienen que tener el mismo nombre que el archivo de video del capítulo al que corresponden, con la diferencia de la extensión.
+* El formato de los archivos de los subtítulos tiene que ser ```.srt```
+* Si vamos a usar la opción de postear la capturas con subtítulos, los archivos ```.srt``` tienen que tener el mismo nombre que el archivo de video del capítulo al que corresponden, con la diferencia de la extensión.
 
 Ejemplo :
 
@@ -77,8 +79,6 @@ Ejemplo :
     📝capitulo1.srt
     📝capitulo2.srt
 ```
-
-* El formato de los archivos de los subtítulos tiene que ser ```.srt```
 
 ### Paso 3: Configurar el tiempo entre tweets
 En este paso vamos a configurar el tiempo que va a pasar entre cada tweet del bot. Lo mínimo seguro para que no nos suspendan la cuenta es de 30 minutos (1800 segundos).
