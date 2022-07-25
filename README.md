@@ -7,7 +7,7 @@ Ejemplo: [botsimuladores](https://www.twitter.com/botsimuladores/)
 
 ### Requisitos previos
 
-Cosas que debes tener instaladas para poder usar el bot.
+Cosas que tenés que tener instaladas para poder usar el bot.
 
 ```
 Python
