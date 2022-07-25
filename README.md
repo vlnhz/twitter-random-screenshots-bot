@@ -80,6 +80,8 @@ Si estás en Linux podes setearla en false y usar un programa como ```crontab```
 
 ### Paso 4: Ejecutar el bot
 Para ejecutar el bot vamos a abrir el archivo bot.py con python. Para esto le hacemos click derecho > abrir con... > Python.
+
+
 También podemos correrlo desde un cmd con el comando ```python bot.py```, habiéndonos posicionado previamente en el directorio donde se encuentra el script.
 
 Si hicimos todo bien, nos va a aparecer un mensaje que dice "esperando" seguido de los segundos de espera que pusimos en el archivo de configuración.
