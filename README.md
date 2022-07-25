@@ -52,13 +52,18 @@ Guía corta para generar las credenciales de twitter para desarrolladores.
 * Rellenamos todos los datos que pide Twitter y en la parte de ```App permissions``` seleccionamos la opción READ AND WRITE (muy importante, si hacemos mal esto el bot no va a tener permisos para twittear).
 * Luego volvemos a la pagina anterior y volvemos a clickear en nuestra app, ahora vamos a la parte de ``Keys and tokens`` clickeamos en la opción ``Generate`` de la sección ``Access Token and Secret``.
 * Dentro de la ventana que se muestra veremos nuestros ``Access Token`` y ``Access Token Secret``. Estos tokens deben tener permisos de lectura y escritura. Una vez generados los copiamos y los pegamos respectivamente en los campos ```ACCESS_TOKEN``` y ```ACCESS_TOKEN_SECRET``` del ```config.ini```
-### Paso 2: Configurar los capítulos y subtítulos
+
+### Paso 2: Configurar los capítulos (y opcionalmente subtítulos)
 Lo único que nos queda por hacer es copiar nuestros capítulos y subtítulos dentro de las carpetas ```capitulos/``` y ```subtitulos/```.
+
 #### Aclaraciones:
 * IMPORTANTE: eliminar los archivos ```.gitkeep``` que se encuentran adentro de las carpetas ```capitulos/``` y ```subtitulos/```.
-* El formato de los videos de los capitulos tiene que ser ```.mp4```
-* El formato de los archivos de los subtítulos tiene que ser ```.srt```
-* Los archivos de subtitulos tienen que tener el mismo nombre que el archivo de video del capítulo al que corresponden, con la diferencia de la extensión.
+* El formato de los videos de los capitulos recomendado es ```.mp4```
+
+#### (opcional) Configurar los subtítulos:
+* Primero que nada, vamos a cambiar en la config el campo ````withSubtitles = false``` por ```withSubtitles = true```
+* Si vamos a usar la opción de postear la capturas con subtítulos, archivos ```.srt``` tienen que tener el mismo nombre que el archivo de video del capítulo al que corresponden, con la diferencia de la extensión.
+
 Ejemplo :
 
 ```
@@ -72,6 +77,9 @@ Ejemplo :
     📝capitulo1.srt
     📝capitulo2.srt
 ```
+
+* El formato de los archivos de los subtítulos tiene que ser ```.srt```
+
 ### Paso 3: Configurar el tiempo entre tweets
 En este paso vamos a configurar el tiempo que va a pasar entre cada tweet del bot. Lo mínimo seguro para que no nos suspendan la cuenta es de 30 minutos (1800 segundos).
 Esto lo vamos a modificar en la variable ```tiempoEspera``` del archivo de configuración.
