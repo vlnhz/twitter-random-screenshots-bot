@@ -17,7 +17,9 @@ ffmpeg
 
 ### Instalación
 
-##### 1. Instalar python desde la [web de python](https://www.python.org/downloads/)
+##### 1. Instalar python desde la [web de python](https://www.python.org/downloads/):
+
+[Tutorial para instalar Python](https://python-para-impacientes.blogspot.com/2017/02/instalar-python-paso-paso.html)
 
 ##### 2.  Instalar tweepy con el comando:
 ```
