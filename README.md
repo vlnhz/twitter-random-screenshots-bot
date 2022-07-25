@@ -1,7 +1,7 @@
 # Twitter Random Screenshots Bot
 
 Bot de twitter que postea frames de series cada x tiempo.
-Ejemplo: [botsimuladores](https://www.twitter.com/botsimuladores/)
+Ejemplo: [@botsimuladores](https://www.twitter.com/botsimuladores/)
 
 ## Tutorial para configurar y usar el bot en tu cuenta
 
@@ -100,4 +100,4 @@ Después de twittear, el bot se va a quedar esperando la cantidad de segundos qu
 Mientras tengamos esta ventana abierta el bot va a seguir twitteando según el tiempo establecido en la configuración.
 
 ### Fin
-Si tenés alguna duda me la podes mandar por dm a [@botsimuladores](https://www.twitter.com/botsimuladores) o a [@vlnhz](https://www.twitter.com/vlnhz)
+Si tenés alguna duda me la podes mandar por dm a [@botsimuladores](https://www.twitter.com/botsimuladores) o a [@vlnhz](https://www.twitter.com/vlnhz).
