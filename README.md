@@ -75,7 +75,9 @@ Ejemplo :
 ### Paso 3: Configurar el tiempo entre tweets
 En este paso vamos a configurar el tiempo que va a pasar entre cada tweet del bot. Lo mínimo seguro para que no nos suspendan la cuenta es de 30 minutos (1800 segundos).
 Esto lo vamos a modificar en la variable ```tiempoEspera``` del archivo de configuración.
+
 Si estás en Windows, la variable ```alwaysRunning``` la vamos a dejar en siempre en True.
+
 Si estás en Linux podes setearla en false y usar un programa como ```crontab``` para ejecutar automáticamente el script cada un determinado intervalo de tiempo.
 
 ### Paso 4: Ejecutar el bot
