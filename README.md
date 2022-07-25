@@ -24,9 +24,9 @@ ffmpeg
 pip install git+https://github.com/tweepy/tweepy.git
 ```
 
-##### 2.  Instalar ffmpeg desde este [link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)
+##### 3.  Instalar ffmpeg desde este [link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)
 
-##### 3. Descargar o clonar el proyecto
+##### 4. Descargar o clonar el proyecto
 Para esto podemos usar la opción 'Download ZIP' que aparece cuando clickeamos el botón verde 'Code' de arriba a la derecha de esta página.
 
 ## Configurar el bot
