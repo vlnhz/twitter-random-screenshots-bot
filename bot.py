@@ -26,7 +26,10 @@ auth.set_access_token(accessKey, accessSecret)
 api = tweepy.API(auth)
 
 def generate_thumbnail(in_filename, out_filename, timess):
+    if(parser.get('config', 'withSubtitles').strip().lower() == 'true'):
         os.system(f"ffmpeg -ss {timess} -copyts -i {in_filename} -vf subtitles={nombreSubtitulos(in_filename)} -vframes 1 {out_filename}")
+    else:
+        os.system(f"ffmpeg -ss {timess} -copyts -i {in_filename} -vframes 1 {out_filename}")
 
 def get_length(input_video):
     result = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', input_video], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
