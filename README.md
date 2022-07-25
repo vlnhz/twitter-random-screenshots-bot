@@ -47,8 +47,7 @@ ACCESS_TOKEN_SECRET =
 con las credenciales de twitter para desarrolladores.
 
 Si ya sabes como obtener las credenciales para desarrolladores de Twitter podes saltearte este paso y pegar las credenciales directamente en el archivo ```config.ini```.
-Si no sabes como hacerlo a continuación un mini tutorial:
-
+Si no sabes como hacerlo, a continuación un mini tutorial:
 
 ### Credenciales de twitter para desarrolladores
 Guía corta para generar las credenciales de twitter para desarrolladores.
