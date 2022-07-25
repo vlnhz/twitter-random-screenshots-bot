@@ -79,7 +79,8 @@ Si estás en Windows, la variable ```alwaysRunning``` la vamos a dejar en siempr
 Si estás en Linux podes setearla en false y usar un programa como ```crontab``` para ejecutar automáticamente el script cada un determinado intervalo de tiempo.
 
 ### Paso 4: Ejecutar el bot
-Para ejecutar el bot vamos a abrir el archivo bot.py con python. Para esto le hacemos click derecho > abrir con... > Python
+Para ejecutar el bot vamos a abrir el archivo bot.py con python. Para esto le hacemos click derecho > abrir con... > Python.
+
 Si hicimos todo bien, nos va a aparecer un mensaje que dice "esperando" seguido de los segundos de espera que pusimos en el archivo de configuración.
 Mientras tengamos esta ventana abierta el bot va a twittear según el tiempo que le hayamos configurado.
 
