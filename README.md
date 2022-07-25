@@ -96,7 +96,7 @@ También podemos correrlo desde un cmd con el comando ```python bot.py```, habi�
 
 Si hicimos todo bien, nos va a aparecer un mensaje que dice ```Twitteando captura...``` y después ```Captura twitteada```. En ese momento tendríamos que ver un nuevo tweet con una captura aleatoria de la cuenta cuyas credenciales escribimos en la configuración.
 
-Después de twittear el bot se va a quedar esperando la cantidad de segundos que le hayamos configurado y pasado ese tiempo va a volver a postear.
+Después de twittear, el bot se va a quedar esperando la cantidad de segundos que le hayamos configurado y pasado ese tiempo va a volver a postear.
 Mientras tengamos esta ventana abierta el bot va a seguir twitteando según el tiempo establecido en la configuración.
 
 ### Fin
