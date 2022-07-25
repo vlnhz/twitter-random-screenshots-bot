@@ -62,7 +62,7 @@ Lo único que nos queda por hacer es copiar nuestros capítulos y subtítulos de
 
 #### Configurar los subtítulos (opcional):
 Solo hacer esto si vamos a usar subtítulos en las capturas
-* Primero que nada, vamos a cambiar en la config el campo ````withSubtitles = false``` por ```withSubtitles = true```
+* Primero que nada, vamos a cambiar en la config el campo ```withSubtitles = false``` por ```withSubtitles = true```
 * El formato de los archivos de los subtítulos tiene que ser ```.srt```
 * Si vamos a usar la opción de postear la capturas con subtítulos, los archivos ```.srt``` tienen que tener el mismo nombre que el archivo de video del capítulo al que corresponden, con la diferencia de la extensión.
 
